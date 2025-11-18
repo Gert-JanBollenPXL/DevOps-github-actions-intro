@@ -7,7 +7,7 @@ jobs:
   runs-on: ubuntu-latest
   steps:
   - name: make directory
-    run: mkdir testmachine
+    run: mkdir -p testmachine
   
   - name: execute uname command
     run: uname -a > testmachine/output.txt
