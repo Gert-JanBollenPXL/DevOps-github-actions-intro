@@ -1,4 +1,4 @@
-name: Issue trigger
+name: Issue trigger 2
 
 on:
   issues:
